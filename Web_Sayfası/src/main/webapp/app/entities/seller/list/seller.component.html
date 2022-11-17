@@ -1,0 +1,87 @@
+<div>
+  <h2 id="page-heading" data-cy="SellerHeading">
+    <span jhiTranslate="marbleApp.seller.home.title">Sellers</span>
+
+    <div class="d-flex justify-content-end">
+      <button class="btn btn-info me-2" (click)="loadAll()" [disabled]="isLoading">
+        <fa-icon icon="sync" [spin]="isLoading"></fa-icon>
+        <span jhiTranslate="marbleApp.seller.home.refreshListLabel">Refresh List</span>
+      </button>
+
+      <button
+        id="jh-create-entity"
+        data-cy="entityCreateButton"
+        class="btn btn-primary jh-create-entity create-seller"
+        [routerLink]="['/seller/new']"
+      >
+        <fa-icon icon="plus"></fa-icon>
+        <span jhiTranslate="marbleApp.seller.home.createLabel"> Create a new Seller </span>
+      </button>
+    </div>
+  </h2>
+
+  <jhi-alert-error></jhi-alert-error>
+
+  <jhi-alert></jhi-alert>
+
+  <div class="alert alert-warning" id="no-result" *ngIf="sellers?.length === 0">
+    <span jhiTranslate="marbleApp.seller.home.notFound">No sellers found</span>
+  </div>
+
+  <div class="table-responsive" id="entities" *ngIf="sellers && sellers.length > 0">
+    <table class="table table-striped" aria-describedby="page-heading">
+      <thead>
+        <tr>
+          <th scope="col"><span jhiTranslate="global.field.id">ID</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.sellerName">Seller Name</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.company">Company</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.name">Name</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.lastName">Last Name</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.adress">Adress</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.telephone">Telephone</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.taxNumber">Tax Number</span></th>
+          <th scope="col"><span jhiTranslate="marbleApp.seller.marbles">Marbles</span></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let seller of sellers; trackBy: trackId" data-cy="entityTable">
+          <td>
+            <a [routerLink]="['/seller', seller.id, 'view']">{{ seller.id }}</a>
+          </td>
+          <td>{{ seller.sellerName }}</td>
+          <td>{{ seller.company }}</td>
+          <td>{{ seller.name }}</td>
+          <td>{{ seller.lastName }}</td>
+          <td>{{ seller.adress }}</td>
+          <td>{{ seller.telephone }}</td>
+          <td>{{ seller.taxNumber }}</td>
+          <td>
+            <span *ngFor="let marbles of seller.marbles; let last = last">
+              <a class="form-control-static" [routerLink]="['/marble', marbles.id, 'view']">{{ marbles.id }}</a
+              >{{ last ? '' : ', ' }}
+            </span>
+          </td>
+          <td class="text-end">
+            <div class="btn-group">
+              <button type="submit" [routerLink]="['/seller', seller.id, 'view']" class="btn btn-info btn-sm" data-cy="entityDetailsButton">
+                <fa-icon icon="eye"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+              </button>
+
+              <button type="submit" [routerLink]="['/seller', seller.id, 'edit']" class="btn btn-primary btn-sm" data-cy="entityEditButton">
+                <fa-icon icon="pencil-alt"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+              </button>
+
+              <button type="submit" (click)="delete(seller)" class="btn btn-danger btn-sm" data-cy="entityDeleteButton">
+                <fa-icon icon="times"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

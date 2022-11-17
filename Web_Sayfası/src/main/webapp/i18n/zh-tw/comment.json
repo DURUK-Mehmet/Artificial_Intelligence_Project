@@ -1,0 +1,27 @@
+{
+  "marbleApp": {
+    "comment": {
+      "home": {
+        "title": "Comments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Comment",
+        "createOrEditLabel": "建立或編輯 Comment",
+        "notFound": "No Comments found"
+      },
+      "created": "新的 Comment 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Comment 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Comment 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Comment {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Comment"
+      },
+      "id": "ID",
+      "userName": "User Name",
+      "description": "Description",
+      "marble": "Marble",
+      "user": "User"
+    }
+  }
+}

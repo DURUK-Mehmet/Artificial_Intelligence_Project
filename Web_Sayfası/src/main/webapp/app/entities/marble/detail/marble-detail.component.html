@@ -1,0 +1,79 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="marble">
+      <h2 data-cy="marbleDetailsHeading"><span jhiTranslate="marbleApp.marble.detail.title">Marble</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ marble.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.image">Image</span></dt>
+        <dd>
+          <div *ngIf="marble.image">
+            <a (click)="openFile(marble.image, marble.imageContentType)">
+              <img [src]="'data:' + marble.imageContentType + ';base64,' + marble.image" style="max-width: 100%" alt="marble image" />
+            </a>
+            {{ marble.imageContentType }}, {{ byteSize(marble.image) }}
+          </div>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.colour">Colour</span></dt>
+        <dd>
+          <span>{{ marble.colour }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.pattern">Pattern</span></dt>
+        <dd>
+          <span>{{ marble.pattern }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.homogeneous">Homogeneous</span></dt>
+        <dd>
+          <span>{{ marble.homogeneous }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.vein">Vein</span></dt>
+        <dd>
+          <span>{{ marble.vein }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.stratification">Stratification</span></dt>
+        <dd>
+          <span>{{ marble.stratification }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.crack">Crack</span></dt>
+        <dd>
+          <span>{{ marble.crack }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.crackStatus">Crack Status</span></dt>
+        <dd>
+          <span>{{ marble.crackStatus }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.quality">Quality</span></dt>
+        <dd>
+          <span>{{ marble.quality }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.price">Price</span></dt>
+        <dd>
+          <span>{{ marble.price }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.marble.seller">Seller</span></dt>
+        <dd>
+          <div *ngIf="marble.seller">
+            <a [routerLink]="['/seller', marble.seller?.id, 'view']">{{ marble.seller?.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/marble', marble.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

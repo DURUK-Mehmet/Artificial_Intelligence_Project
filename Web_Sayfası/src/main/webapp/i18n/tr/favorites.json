@@ -1,0 +1,26 @@
+{
+  "marbleApp": {
+    "favorites": {
+      "home": {
+        "title": "Favorites",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Favorites",
+        "createOrEditLabel": "Create or edit a Favorites",
+        "notFound": "No Favorites found"
+      },
+      "created": "A new Favorites is created with identifier {{ param }}",
+      "updated": "A Favorites is updated with identifier {{ param }}",
+      "deleted": "A Favorites is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Favorites {{ id }}?"
+      },
+      "detail": {
+        "title": "Favorites"
+      },
+      "id": "ID",
+      "userName": "User Name",
+      "marble": "Marble",
+      "user": "User"
+    }
+  }
+}

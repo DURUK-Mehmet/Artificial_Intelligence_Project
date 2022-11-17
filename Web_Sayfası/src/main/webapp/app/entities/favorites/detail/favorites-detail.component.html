@@ -1,0 +1,42 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="favorites">
+      <h2 data-cy="favoritesDetailsHeading"><span jhiTranslate="marbleApp.favorites.detail.title">Favorites</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ favorites.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.favorites.userName">User Name</span></dt>
+        <dd>
+          <span>{{ favorites.userName }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.favorites.marble">Marble</span></dt>
+        <dd>
+          <div *ngIf="favorites.marble">
+            <a [routerLink]="['/marble', favorites.marble?.id, 'view']">{{ favorites.marble?.id }}</a>
+          </div>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.favorites.user">User</span></dt>
+        <dd>
+          <span>{{ favorites.user?.id }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/favorites', favorites.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

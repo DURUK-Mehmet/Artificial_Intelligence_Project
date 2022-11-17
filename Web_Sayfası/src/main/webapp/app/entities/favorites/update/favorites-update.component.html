@@ -1,0 +1,65 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-favorites-heading" data-cy="FavoritesCreateUpdateHeading" jhiTranslate="marbleApp.favorites.home.createOrEditLabel">
+        Create or edit a Favorites
+      </h2>
+
+      <div>
+        <jhi-alert-error></jhi-alert-error>
+
+        <div class="row mb-3" [hidden]="editForm.get('id')!.value == null">
+          <label class="form-label" jhiTranslate="global.field.id" for="field_id">ID</label>
+          <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.favorites.userName" for="field_userName">User Name</label>
+          <input type="text" class="form-control" name="userName" id="field_userName" data-cy="userName" formControlName="userName" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.favorites.marble" for="field_marble">Marble</label>
+          <select class="form-control" id="field_marble" data-cy="marble" name="marble" formControlName="marble">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="marbleOption.id === editForm.get('marble')!.value?.id ? editForm.get('marble')!.value : marbleOption"
+              *ngFor="let marbleOption of marblesCollection; trackBy: trackMarbleById"
+            >
+              {{ marbleOption.id }}
+            </option>
+          </select>
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.favorites.user" for="field_user">User</label>
+          <select class="form-control" id="field_user" data-cy="user" name="user" formControlName="user">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="userOption.id === editForm.get('user')!.value?.id ? editForm.get('user')!.value : userOption"
+              *ngFor="let userOption of usersSharedCollection; trackBy: trackUserById"
+            >
+              {{ userOption.id }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

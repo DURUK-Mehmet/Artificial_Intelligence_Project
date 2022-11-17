@@ -1,0 +1,52 @@
+
+
+
+entity Seller {
+   sellerName String,
+   company String,
+   name String,
+   lastName String,
+   adress String,
+   telephone String,
+   taxNumber String,
+
+}
+
+entity Marble {
+	image ImageBlob,
+	colour String,
+    pattern String,
+    homogeneous String,
+    vein String,
+    stratification String,
+    crack String,
+    crackStatus String,
+    quality String,
+    price String,
+}
+entity Blog {
+	title String,
+    description TextBlob,
+    date LocalDate,
+}
+
+entity Comment {
+	userName String,
+    description TextBlob,
+}
+
+entity Favorites {
+	userName String,
+}
+
+relationship ManyToOne {
+	Favorites{user} to User,
+    Comment{user} to User,
+    Marble{seller} to Seller{marble},
+    Blog{user} to User,
+}
+
+relationship OneToOne {
+	Favorites{marble} to Marble
+    Comment{marble} to Marble
+}

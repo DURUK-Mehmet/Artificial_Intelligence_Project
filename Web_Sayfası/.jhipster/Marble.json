@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20221018091543",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "marble",
+  "fields": [
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "colour",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pattern",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "homogeneous",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vein",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stratification",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "crack",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "crackStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quality",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Marble",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "seller",
+      "otherEntityRelationshipName": "marble",
+      "relationshipName": "seller",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

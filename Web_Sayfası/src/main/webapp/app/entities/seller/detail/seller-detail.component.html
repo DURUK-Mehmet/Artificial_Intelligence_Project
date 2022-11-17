@@ -1,0 +1,63 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="seller">
+      <h2 data-cy="sellerDetailsHeading"><span jhiTranslate="marbleApp.seller.detail.title">Seller</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ seller.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.sellerName">Seller Name</span></dt>
+        <dd>
+          <span>{{ seller.sellerName }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.company">Company</span></dt>
+        <dd>
+          <span>{{ seller.company }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.name">Name</span></dt>
+        <dd>
+          <span>{{ seller.name }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.lastName">Last Name</span></dt>
+        <dd>
+          <span>{{ seller.lastName }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.adress">Adress</span></dt>
+        <dd>
+          <span>{{ seller.adress }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.telephone">Telephone</span></dt>
+        <dd>
+          <span>{{ seller.telephone }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.taxNumber">Tax Number</span></dt>
+        <dd>
+          <span>{{ seller.taxNumber }}</span>
+        </dd>
+        <dt><span jhiTranslate="marbleApp.seller.marbles">Marbles</span></dt>
+        <dd>
+          <span *ngFor="let marbles of seller.marbles; let last = last">
+            <a [routerLink]="['/marble', marbles?.id, 'view']"><img [src]="'data:' + marbles.imageContentType + ';base64,' + marbles.image" style="max-height: 30px" alt="marble image" /></a
+            >{{ last ? '' : ', ' }}
+          </span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/seller', seller.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

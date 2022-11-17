@@ -1,0 +1,26 @@
+{
+  "marbleApp": {
+    "favorites": {
+      "home": {
+        "title": "Favorites",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Favorites",
+        "createOrEditLabel": "建立或編輯 Favorites",
+        "notFound": "No Favorites found"
+      },
+      "created": "新的 Favorites 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Favorites 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Favorites 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Favorites {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Favorites"
+      },
+      "id": "ID",
+      "userName": "User Name",
+      "marble": "Marble",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20221018091545",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "comment",
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Comment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "marble",
+      "otherEntityRelationshipName": "comment",
+      "ownerSide": true,
+      "relationshipName": "marble",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20221018091546",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "favorites",
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Favorites",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "marble",
+      "otherEntityRelationshipName": "favorites",
+      "ownerSide": true,
+      "relationshipName": "marble",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "favorites",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

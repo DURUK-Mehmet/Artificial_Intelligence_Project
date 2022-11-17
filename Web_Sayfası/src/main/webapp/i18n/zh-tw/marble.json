@@ -1,0 +1,34 @@
+{
+  "marbleApp": {
+    "marble": {
+      "home": {
+        "title": "Marbles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Marble",
+        "createOrEditLabel": "建立或編輯 Marble",
+        "notFound": "No Marbles found"
+      },
+      "created": "新的 Marble 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Marble 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Marble 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Marble {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Marble"
+      },
+      "id": "ID",
+      "image": "Image",
+      "colour": "Colour",
+      "pattern": "Pattern",
+      "homogeneous": "Homogeneous",
+      "vein": "Vein",
+      "stratification": "Stratification",
+      "crack": "Crack",
+      "crackStatus": "Crack Status",
+      "quality": "Quality",
+      "price": "Price",
+      "seller": "Seller"
+    }
+  }
+}

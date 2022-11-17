@@ -1,0 +1,107 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-seller-heading" data-cy="SellerCreateUpdateHeading" jhiTranslate="marbleApp.seller.home.createOrEditLabel">
+        Create or edit a Seller
+      </h2>
+
+      <div>
+        <jhi-alert-error></jhi-alert-error>
+
+        <div class="row mb-3" [hidden]="editForm.get('id')!.value == null">
+          <label class="form-label" jhiTranslate="global.field.id" for="field_id">ID</label>
+          <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.sellerName" for="field_sellerName">Seller Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="sellerName"
+            id="field_sellerName"
+            data-cy="sellerName"
+            formControlName="sellerName"
+          />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.company" for="field_company">Company</label>
+          <input type="text" class="form-control" name="company" id="field_company" data-cy="company" formControlName="company" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.name" for="field_name">Name</label>
+          <input type="text" class="form-control" name="name" id="field_name" data-cy="name" formControlName="name" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.lastName" for="field_lastName">Last Name</label>
+          <input type="text" class="form-control" name="lastName" id="field_lastName" data-cy="lastName" formControlName="lastName" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.adress" for="field_adress">Adress</label>
+          <input type="text" class="form-control" name="adress" id="field_adress" data-cy="adress" formControlName="adress" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.telephone" for="field_telephone">Telephone</label>
+          <input type="text" class="form-control" name="telephone" id="field_telephone" data-cy="telephone" formControlName="telephone" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="marbleApp.seller.taxNumber" for="field_taxNumber">Tax Number</label>
+          <input type="text" class="form-control" name="taxNumber" id="field_taxNumber" data-cy="taxNumber" formControlName="taxNumber" />
+        </div>
+
+        <div class="row mb-3">
+          <label jhiTranslate="marbleApp.seller.marbles" for="field_marbles">Marbles</label>
+          <select class="form-control" id="field_marbles" data-cy="marbles" multiple name="marbles" formControlName="marbles">
+            <option
+              [ngValue]="getSelectedMarble(marbleOption, editForm.get('marbles')!.value)"
+              *ngFor="let marbleOption of marblesSharedCollection; trackBy: trackMarbleById"
+            >
+              {{ marbleOption.id }}
+            </option>
+          </select>
+        </div>
+
+        <input
+          type="file"
+          id="file_image"
+          data-cy="image"
+          accept="image/*"
+          jhiTranslate="entity.action.addimage"
+        />
+
+      <input type="hidden" class="form-control" name="image" id="field_image" data-cy="image" formControlName="image" />
+      <input
+        type="hidden"
+        class="form-control"
+        name="imageContentType"
+        id="field_imageContentType"
+        formControlName="imageContentType"
+      />
+
+
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

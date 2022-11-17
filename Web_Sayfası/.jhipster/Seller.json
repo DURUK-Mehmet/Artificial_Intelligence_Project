@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20221018091542",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "seller",
+  "fields": [
+    {
+      "fieldName": "sellerName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "company",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telephone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "taxNumber",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Seller",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "marble",
+      "otherEntityRelationshipName": "id",
+      "ownerSide": true,
+      "relationshipName": "marbles",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

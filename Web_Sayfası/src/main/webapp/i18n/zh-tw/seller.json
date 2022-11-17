@@ -1,0 +1,31 @@
+{
+  "marbleApp": {
+    "seller": {
+      "home": {
+        "title": "Sellers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Seller",
+        "createOrEditLabel": "建立或編輯 Seller",
+        "notFound": "No Sellers found"
+      },
+      "created": "新的 Seller 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Seller 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Seller 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Seller {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Seller"
+      },
+      "id": "ID",
+      "sellerName": "Seller Name",
+      "company": "Company",
+      "name": "Name",
+      "lastName": "Last Name",
+      "adress": "Adress",
+      "telephone": "Telephone",
+      "taxNumber": "Tax Number",
+      "marbles": "Marbles"
+    }
+  }
+}

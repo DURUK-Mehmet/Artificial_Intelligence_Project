@@ -1,0 +1,31 @@
+{
+  "marbleApp": {
+    "seller": {
+      "home": {
+        "title": "Sellers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Seller",
+        "createOrEditLabel": "Create or edit a Seller",
+        "notFound": "No Sellers found"
+      },
+      "created": "A new Seller is created with identifier {{ param }}",
+      "updated": "A Seller is updated with identifier {{ param }}",
+      "deleted": "A Seller is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Seller {{ id }}?"
+      },
+      "detail": {
+        "title": "Seller"
+      },
+      "id": "ID",
+      "sellerName": "Seller Name",
+      "company": "Company",
+      "name": "Name",
+      "lastName": "Last Name",
+      "adress": "Adress",
+      "telephone": "Telephone",
+      "taxNumber": "Tax Number",
+      "marbles": "Marbles"
+    }
+  }
+}
