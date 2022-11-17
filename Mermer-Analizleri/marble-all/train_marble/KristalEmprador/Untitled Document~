@@ -1,0 +1,9 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm90.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm776.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm878.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm991.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm7767.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/konglomera/sm9992.jpg

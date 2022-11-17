@@ -1,0 +1,8 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/sm765.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/sm878.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/sm9898.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/small_1254.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/limbra/small_images.jpeg

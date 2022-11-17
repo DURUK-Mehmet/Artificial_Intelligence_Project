@@ -1,0 +1,16 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm546.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm767.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm878.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm0902.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm6716.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm8989.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm78722.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm92929.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/sm0900902.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/small_8.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/small_169692.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/small_diyabaz3.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/small_images.jpeg

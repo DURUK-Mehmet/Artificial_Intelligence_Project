@@ -1,0 +1,14 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_i8.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_i9.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_i10.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_i11.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_ig7.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img1.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img2.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img3.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img4.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img5.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/Blue1/small_img6.jpg

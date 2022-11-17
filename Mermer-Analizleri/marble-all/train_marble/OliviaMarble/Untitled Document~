@@ -1,0 +1,16 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm87.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm98.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm99.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm776.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm872.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm876.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm7652.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm8282.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/sm87282.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/small_download.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/small_images.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/small_images_1.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/MilasSedef/small_marmara.jpg

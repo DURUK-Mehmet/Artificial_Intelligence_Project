@@ -1,0 +1,10 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/sm87.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/sm878.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/sm7672.JPG
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/sm76762.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/small_478.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/small_317888.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/OliviaMarble/small_images.jpeg

@@ -1,0 +1,15 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm11.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm12.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm13.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm14.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm15.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm16.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm17.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm18.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm19.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm20.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm21.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/ElazigVisne/sm22.jpg

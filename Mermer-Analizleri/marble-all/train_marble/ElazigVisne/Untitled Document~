@@ -1,0 +1,11 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/sm31.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/sm443.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/sm9892.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/sm98982.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/small_56807.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/small_57990.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/small_download.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/EkvatorPijama/small_images.jpeg

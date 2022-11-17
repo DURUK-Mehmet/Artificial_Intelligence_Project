@@ -1,0 +1,10 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm23.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm24.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm45.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm46.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm47.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm48.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GulKurusu/sm50.JPG

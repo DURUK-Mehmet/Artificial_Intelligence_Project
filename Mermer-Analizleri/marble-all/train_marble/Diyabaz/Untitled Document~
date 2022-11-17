@@ -1,0 +1,11 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small1.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small11.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small12.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small13.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small14.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small15.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small16.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/diyabaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/DolceVita/small17.jpg

@@ -1,0 +1,14 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm87.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm767.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm878.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm6262.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm7676.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm9892.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm76662.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sm98982.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/small_00.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/small_images.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/oniks/sms88.jpg

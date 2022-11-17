@@ -1,0 +1,10 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/sm02020.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/sm5455.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/sm9892.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/sm992992.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/small_01_11_02.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/small_images.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/GoldGalaxy/smu22.jpg

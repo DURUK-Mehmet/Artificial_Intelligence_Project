@@ -1,0 +1,15 @@
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image 
+
+
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm011.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm14.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm25.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm45.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm89.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm99.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm100.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm776.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/sm9991.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/small_13.jpg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/small_download.jpeg
+python augmentation_demo.py --output /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/output --image /home/pc2018/Desktop/book/PB_Book/chapter02-data_augmentation/mermerresim/kemalpasabeyaz/small_images.jpeg
