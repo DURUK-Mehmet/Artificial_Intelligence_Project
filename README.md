@@ -1,19 +1,19 @@
 Yazılım Mühendisliği Güncel Konular Projesi
 
-| Üyeler   | İsim Soyisim |
+| Okul No| İsim Soyisim |
 |---------:|---------------|
-|         1|    Ferhat ELTAŞ
-|         2|    Bünyamin UÇAR
-|         3|    Turhan KAYAER
-|         4|    Mehmet DURUK
-|         5|    Rümeysa KOÇAK
-|         6|    M.AKİF ERGÜNDÜZ
-|         7|    FATİH KARAKUŞ
-|         8|    MUSTAFA KORUCU
-|         9|    Gülsena DEMİRCAN
-|        10|    Muhammed DURMAZ
-|        11|    Erol BERK OKUDUCU
-|        12|    Alihan EYMİRLİ
+|190542010|    Ferhat ELTAŞ
+|190542015|    Bünyamin UÇAR
+|190542014|    Turhan KAYAER
+|190542016|    Mehmet DURUK
+|190541017|    Rümeysa KOÇAK
+|190541072|    M.AKİF ERGÜNDÜZ
+|190541006|    FATİH KARAKUŞ
+|190541054|    MUSTAFA KORUCU
+|190541053|    Gülsena DEMİRCAN
+|190542004|    Muhammed DURMAZ
+|190541064|    Erol BERK OKUDUCU
+|185541094|    Alihan EYMİRLİ
 
 
 ## Projede yapılan kesimler
