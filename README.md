@@ -1,4 +1,4 @@
-Yazılım Mühendisliği Güncel Konular Projesi
+# Yazılım Mühendisliği Güncel Konular Projesi
 
 | Okul No| İsim Soyisim |
 |---------:|---------------|
