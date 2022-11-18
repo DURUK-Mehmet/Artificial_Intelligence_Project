@@ -33,6 +33,7 @@ Yazılım Mühendisliği Güncel Konular Projesi
 - [Marble Classification](https://github.com/Msefasenbani/Marble-Classification-with-Deep-Learning)
 - [Marble Classification](https://github.com/mehmetsametdurgun/Marble-Classification)
 - [Marble Surface Anomaly Detection](https://github.com/AlbertoPazzaia/Marble-Surface-Anomaly-Detection)
+- [Kaggle](https://www.kaggle.com/)
 
 
 
