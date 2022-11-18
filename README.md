@@ -26,7 +26,7 @@ Yazılım Mühendisliği Güncel Konular Projesi
  
 # Kaynakçalar
 - Projemizde bir çok yerden alınmış ve düzenlenmiş veri seti bulunmaktadır [DataSet](https://github.com/DURUK-Mehmet/Artificial_Intelligence_Project/tree/master/Mermer-Analizleri)
-- Kaynaklar Atılım Üniversitesi [Proje Link](https://github.com/usmertihsan/Marble-Classification-Using-Deep-Learning-)
+- Atılım Üniversitesi Mermer Projesi [Proje Link](https://github.com/usmertihsan/Marble-Classification-Using-Deep-Learning-)
 - [Marble Growth](https://github.com/mgurdal/marble-growth)
 - [Marble Classification](https://github.com/erhanturan1991/MarbleClassification)
 - [Marble Quality Check](https://github.com/VidyaMS/marble_quality_check)
