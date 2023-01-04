@@ -3,7 +3,6 @@
 | Okul No| İsim Soyisim |
 |---------:|---------------|
 |190542010|    Ferhat ELTAŞ
-|190542015|    Bünyamin UÇAR
 |190542014|    Turhan KAYAER
 |190542016|    Mehmet DURUK
 |190541017|    Rümeysa KOÇAK
